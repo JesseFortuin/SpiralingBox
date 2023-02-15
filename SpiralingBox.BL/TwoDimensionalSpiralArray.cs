@@ -9,7 +9,6 @@
             
             
             
-            
             int[,] box= new int[width, length];
             
             return box;
