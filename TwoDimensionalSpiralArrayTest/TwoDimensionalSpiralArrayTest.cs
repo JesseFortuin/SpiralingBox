@@ -8,6 +8,7 @@ namespace TwoDimensionalSpiralArrayTest
         [Fact]
         public void BoxCreatorTest()
         {
+           
             //arrange
             TwoDimensionalSpiralArray box = new TwoDimensionalSpiralArray();
 
@@ -33,6 +34,7 @@ namespace TwoDimensionalSpiralArrayTest
             //assert
 
             Assert.Equal(spiralBox, actual);
+               
         }
     }
 }
